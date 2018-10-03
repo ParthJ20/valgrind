@@ -1,6 +1,7 @@
 #include <AnalogSensor.hpp>
 #include <numeric>
 #include <vector>
+#include <memory>
 
 AnalogSensor::AnalogSensor(unsigned int samples)
     : mSamples(samples)
